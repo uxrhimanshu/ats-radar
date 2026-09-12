@@ -1,0 +1,46 @@
+{
+  "_comment": "Copy to sources.json and edit. The real file is gitignored — your target list is your business. Run `python3 resolve_sources.py` before trusting a board slug: an HTTP 200 is not proof you have the right employer.",
+  "sources": [
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "adapter": "greenhouse",
+      "params": { "board": "gitlab" },
+      "careers_url": "https://about.gitlab.com/jobs/"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "adapter": "ashby",
+      "params": { "board": "linear" },
+      "careers_url": "https://linear.app/careers"
+    },
+    {
+      "id": "example-personio",
+      "name": "An employer on Personio",
+      "adapter": "personio_xml",
+      "params": { "subdomain": "example" },
+      "careers_url": "https://example.jobs.personio.de/",
+      "extra_location_ok": ["emea", "hq"],
+      "_note": "extra_location_ok whitelists location strings this one board uses that the profile cannot anticipate — a campus name, an internal site code. Better than widening the profile for everybody."
+    },
+    {
+      "id": "example-rss",
+      "name": "An employer publishing an RSS careers feed",
+      "adapter": "rss",
+      "params": {
+        "url": "https://example.com/careers/feed.rss",
+        "location_contains": "Berlin"
+      },
+      "careers_url": "https://example.com/careers"
+    },
+    {
+      "id": "example-manual",
+      "name": "An employer with no machine-readable board",
+      "adapter": "manual",
+      "params": { "careers_url": "https://example.com/careers" },
+      "careers_url": "https://example.com/careers",
+      "_note": "Manual sources are never fetched. They are named in the weekly recap so you remember to check them by hand."
+    }
+  ]
+}

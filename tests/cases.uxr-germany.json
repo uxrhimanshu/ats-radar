@@ -1,0 +1,118 @@
+{
+  "profile": "profiles/uxr-germany.json",
+  "note": "Every case here was a real miscategorisation at some point. Run after any profile edit.",
+  "cases": [
+    {
+      "title": "Senior Product Manager, Insights - Vendor",
+      "expect": null
+    },
+    {
+      "title": "Researcher : Vibration and Structural Mechanics Simulations",
+      "expect": null
+    },
+    {
+      "title": "Senior Design Engineer, Design System",
+      "expect": null
+    },
+    {
+      "title": "Praktikum im Bereich UI/UX - Design",
+      "expect": null
+    },
+    {
+      "title": "Werkstudent UX-Design Bereich Buchführung (m/w/d)",
+      "expect": null
+    },
+    {
+      "title": "SAP Signavio iXp Intern (f/m/d) - User Experience Design",
+      "expect": null
+    },
+    {
+      "title": "ASIC Development Engineer Digital IC Design (f/m/div.)",
+      "expect": null
+    },
+    {
+      "title": "Senior Product Manager, Payments",
+      "expect": null
+    },
+    {
+      "title": "Senior Graphic Designer (all genders)",
+      "expect": null
+    },
+    {
+      "title": "Senior UX Researcher",
+      "expect": "research"
+    },
+    {
+      "title": "User Researcher (f/m/d)",
+      "expect": "research"
+    },
+    {
+      "title": "Customer Insights Manager",
+      "expect": "research"
+    },
+    {
+      "title": "Mixed Methods UX Researcher",
+      "expect": "research"
+    },
+    {
+      "title": "Nutzerforscher",
+      "expect": "research"
+    },
+    {
+      "title": "Principal Product Researcher",
+      "expect": "research"
+    },
+    {
+      "title": "Senior UX Generalist",
+      "expect": "research-design"
+    },
+    {
+      "title": "End-to-End UX Designer (f/m/d)",
+      "expect": "research-design"
+    },
+    {
+      "title": "Product Designer & Researcher",
+      "expect": "research-design"
+    },
+    {
+      "title": "Senior Product Designer - ZEOS (all genders)",
+      "expect": "design"
+    },
+    {
+      "title": "UX Growth Designer",
+      "expect": "design"
+    },
+    {
+      "title": "Specialist UX Designer (m/w/d) (befr. 2 Jahre)",
+      "expect": "design"
+    },
+    {
+      "title": "Senior Manager, User Experience - (Quick Commerce)",
+      "expect": "design"
+    },
+    {
+      "title": "Director UX Design",
+      "expect": "design"
+    },
+    {
+      "title": "Team Lead/Head of Product Design (m/f/d)",
+      "expect": "design"
+    },
+    {
+      "title": "Associate Director Experience Design",
+      "expect": "design"
+    },
+    {
+      "title": "Director Product Design",
+      "expect": "design"
+    },
+    {
+      "title": "Product Manager, Discovery",
+      "expect": "pm-research"
+    },
+    {
+      "title": "Senior Product Manager - User Research Platform",
+      "expect": "pm-research"
+    }
+  ]
+}

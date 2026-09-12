@@ -1,0 +1,16 @@
+{
+  "profile": "profiles/example-minimal.json",
+  "note": "Shows that the same engine gives different answers under a different profile.",
+  "cases": [
+    {"title": "Senior Backend Engineer", "expect": "backend"},
+    {"title": "Go Engineer (m/f/d)", "expect": "backend"},
+    {"title": "Python Developer", "expect": "backend"},
+    {"title": "Site Reliability Engineer", "expect": "platform"},
+    {"title": "Staff Platform Engineer", "expect": "platform"},
+    {"title": "DevOps Engineer", "expect": "platform"},
+    {"title": "Backend Engineer Internship", "expect": null},
+    {"title": "Sales Engineer, Benelux", "expect": null},
+    {"title": "Senior UX Researcher", "expect": null},
+    {"title": "Product Designer", "expect": null}
+  ]
+}

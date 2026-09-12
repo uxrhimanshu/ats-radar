@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Your target employers and your collected state are yours, not the tool's.
+sources.json
+census_sources.json
+state/
+.env

@@ -1,0 +1,8 @@
+{
+  "_comment": "Copy to census_sources.json. Kept separate from sources.json on purpose: this list measures the market, the other alerts you about specific employers. Mixing them makes both questions harder to answer.",
+  "sources": [
+    { "id": "gitlab", "name": "GitLab", "adapter": "greenhouse", "params": { "board": "gitlab" } },
+    { "id": "linear", "name": "Linear", "adapter": "ashby", "params": { "board": "linear" } },
+    { "id": "example", "name": "An employer on SmartRecruiters", "adapter": "smartrecruiters", "params": { "company": "Example" } }
+  ]
+}

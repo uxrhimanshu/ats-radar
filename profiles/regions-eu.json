@@ -1,0 +1,300 @@
+{
+  "name": "EU countries and remote",
+  "remote": [
+    "eu remote",
+    "europe remote",
+    "emea remote",
+    "remote eu",
+    "remote europe",
+    "remote emea",
+    "remote - europe",
+    "remote, europe",
+    "remote (europe",
+    "europe (remote",
+    "eu-remote",
+    "remote - emea",
+    "home based - emea"
+  ],
+  "exclude": [
+    "united states",
+    " usa",
+    "us)",
+    ", us",
+    "canada",
+    "india",
+    "bengaluru",
+    "bangalore",
+    "singapore",
+    "australia",
+    "brazil",
+    "mexico",
+    "japan",
+    "china",
+    "shanghai",
+    "beijing",
+    "vietnam",
+    "philippines",
+    "malaysia",
+    "indonesia",
+    "israel",
+    "tel aviv",
+    "dubai",
+    "uae",
+    "saudi",
+    "riyadh",
+    "turkey",
+    "istanbul",
+    "egypt",
+    "kenya",
+    "nigeria",
+    "south africa",
+    "new york",
+    "san francisco",
+    "london",
+    "manchester",
+    "leeds",
+    "edinburgh",
+    "sheffield",
+    "united kingdom",
+    "england",
+    "scotland",
+    "wales",
+    ", uk",
+    "(uk",
+    "birmingham"
+  ],
+  "countries": {
+    "de": [
+      "germany",
+      "deutschland",
+      "berlin",
+      "munich",
+      "munchen",
+      "muenchen",
+      "hamburg",
+      "frankfurt",
+      "cologne",
+      "koln",
+      "stuttgart",
+      "dusseldorf",
+      "duesseldorf",
+      "leipzig",
+      "dresden",
+      "nuremberg",
+      "nurnberg",
+      "hannover",
+      "hanover",
+      "bremen",
+      "essen",
+      "bochum",
+      "karlsruhe",
+      "mannheim",
+      "heidelberg",
+      "walldorf",
+      "chemnitz",
+      "erlangen",
+      "potsdam",
+      "renningen",
+      "gerlingen",
+      "bietigheim",
+      "reutlingen",
+      "goppingen",
+      "bonn",
+      "ratingen"
+    ],
+    "nl": [
+      "netherlands",
+      "nederland",
+      "amsterdam",
+      "rotterdam",
+      "utrecht",
+      "eindhoven",
+      "the hague",
+      "den haag",
+      "maastricht",
+      "delft",
+      "groningen",
+      "haarlem"
+    ],
+    "ie": [
+      "ireland",
+      "dublin",
+      "cork",
+      "galway",
+      "limerick"
+    ],
+    "fr": [
+      "france",
+      "paris",
+      "lyon",
+      "toulouse",
+      "bordeaux",
+      "lille",
+      "nantes",
+      "marseille",
+      "montpellier",
+      "grenoble",
+      "sophia antipolis",
+      "valbonne"
+    ],
+    "es": [
+      "spain",
+      "espana",
+      "madrid",
+      "barcelona",
+      "valencia",
+      "seville",
+      "malaga",
+      "bilbao"
+    ],
+    "it": [
+      "italy",
+      "italia",
+      "milan",
+      "milano",
+      "rome",
+      "roma",
+      "turin",
+      "torino",
+      "bologna"
+    ],
+    "se": [
+      "sweden",
+      "sverige",
+      "stockholm",
+      "gothenburg",
+      "goteborg",
+      "malmo",
+      "lund",
+      "uppsala"
+    ],
+    "dk": [
+      "denmark",
+      "danmark",
+      "copenhagen",
+      "kobenhavn",
+      "kbenhavn",
+      "aarhus",
+      "odense"
+    ],
+    "no": [
+      "norway",
+      "norge",
+      "oslo",
+      "bergen",
+      "trondheim"
+    ],
+    "fi": [
+      "finland",
+      "suomi",
+      "helsinki",
+      "espoo",
+      "tampere",
+      "turku",
+      "oulu"
+    ],
+    "at": [
+      "austria",
+      "osterreich",
+      "vienna",
+      "wien",
+      "graz",
+      "linz",
+      "salzburg",
+      "innsbruck"
+    ],
+    "pl": [
+      "poland",
+      "polska",
+      "warsaw",
+      "warszawa",
+      "krakow",
+      "cracow",
+      "wroclaw",
+      "gdansk",
+      "poznan"
+    ],
+    "pt": [
+      "portugal",
+      "lisbon",
+      "lisboa",
+      "porto",
+      "braga"
+    ],
+    "be": [
+      "belgium",
+      "belgique",
+      "brussels",
+      "bruxelles",
+      "antwerp",
+      "ghent",
+      "leuven",
+      "nivelles"
+    ],
+    "ch": [
+      "switzerland",
+      "schweiz",
+      "zurich",
+      "zuerich",
+      "geneva",
+      "basel",
+      "lausanne",
+      "bern"
+    ],
+    "cz": [
+      "czech",
+      "prague",
+      "praha",
+      "brno"
+    ],
+    "ro": [
+      "romania",
+      "bucharest",
+      "cluj",
+      "timisoara",
+      "iasi"
+    ],
+    "gr": [
+      "greece",
+      "athens",
+      "thessaloniki"
+    ],
+    "ee": [
+      "estonia",
+      "tallinn",
+      "tartu"
+    ],
+    "lt": [
+      "lithuania",
+      "vilnius",
+      "kaunas"
+    ],
+    "lv": [
+      "latvia",
+      "riga"
+    ],
+    "hu": [
+      "hungary",
+      "budapest"
+    ],
+    "bg": [
+      "bulgaria",
+      "sofia"
+    ],
+    "hr": [
+      "croatia",
+      "zagreb"
+    ],
+    "lu": [
+      "luxembourg"
+    ],
+    "sk": [
+      "slovakia",
+      "bratislava"
+    ],
+    "si": [
+      "slovenia",
+      "ljubljana"
+    ]
+  }
+}

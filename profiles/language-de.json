@@ -1,0 +1,71 @@
+{
+  "name": "German-language gate",
+  "levels": [
+    {
+      "id": "german-required",
+      "terms": [
+        "fluent german",
+        "fluency in german",
+        "native german",
+        "german native",
+        "c1 german",
+        "c2 german",
+        "german c1",
+        "german c2",
+        "verhandlungssicher",
+        "sehr gute deutschkenntnisse",
+        "fliessend deutsch",
+        "fliessende deutschkenntnisse",
+        "deutsch auf muttersprachlichem",
+        "business fluent german",
+        "german is required",
+        "german language is required",
+        "excellent german",
+        "b2 german",
+        "german b2",
+        "gute deutschkenntnisse",
+        "deutschkenntnisse erforderlich"
+      ]
+    },
+    {
+      "id": "german-plus",
+      "terms": [
+        "german is a plus",
+        "german a plus",
+        "german is a bonus",
+        "german would be a plus",
+        "german skills are a plus",
+        "deutschkenntnisse von vorteil",
+        "german is nice to have",
+        "german desirable",
+        "conversational german",
+        "basic german"
+      ]
+    },
+    {
+      "id": "english-only",
+      "terms": [
+        "english is the company language",
+        "our company language is english",
+        "we work in english",
+        "english is our working language",
+        "fluent english",
+        "excellent english",
+        "english proficiency",
+        "working language is english",
+        "fluency in english"
+      ]
+    }
+  ],
+  "body_language_markers": [
+    " und ",
+    " der ",
+    " die ",
+    " das ",
+    " mit ",
+    " fur ",
+    " wir "
+  ],
+  "body_language_threshold": 8,
+  "body_language_result": "german-required"
+}

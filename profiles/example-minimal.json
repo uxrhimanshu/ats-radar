@@ -1,0 +1,39 @@
+{
+  "name": "Backend engineering roles in the Netherlands",
+  "description": "A deliberately small profile, here to show the schema without the length of a real one. Two categories, two exclusion lists, one location list.",
+  "categories": [
+    {
+      "id": "platform",
+      "label": "Platform / Infrastructure",
+      "rank": 0,
+      "terms": ["platform engineer", "infrastructure engineer", "site reliability", "sre", "devops"],
+      "patterns": []
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "rank": 1,
+      "note": "The pattern catches 'Senior Go Engineer' and 'Python Developer' without listing every language twice.",
+      "terms": ["backend engineer", "back-end engineer", "backend developer", "api engineer"],
+      "patterns": ["\\b(go|golang|python|java|rust|elixir|scala)\\b[\\w /&-]*\\b(engineer|developer)\\b"]
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "junior",
+      "reason": "entry-level and non-permanent formats",
+      "terms": ["intern", "internship", "werkstudent", "graduate program", "trainee", "apprentice", "stagiair"]
+    },
+    {
+      "name": "off-domain",
+      "reason": "sales and support roles that borrow engineering words",
+      "terms": ["sales engineer", "solutions engineer", "support engineer", "customer engineer", "pre-sales"]
+    }
+  ],
+  "locations": {
+    "include": ["netherlands", "nederland", "amsterdam", "rotterdam", "utrecht", "eindhoven", "the hague", "den haag"],
+    "remote": ["remote netherlands", "eu remote", "remote europe"],
+    "exclude": []
+  },
+  "seniority_pattern": "\\b(senior|sr\\.?|staff|lead|principal|head)\\b"
+}

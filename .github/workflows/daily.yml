@@ -1,0 +1,54 @@
+name: ats-radar daily
+
+on:
+  schedule:
+    # 03:30 UTC. Pick a time that suits you; avoid the top of the hour, when
+    # every scheduled workflow on GitHub starts at once and runners queue.
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # State is a single file committed back to the repo, so two runs must never
+  # overlap. cancel-in-progress would abandon a run that had already notified
+  # but not yet saved, and the same roles would be reported again tomorrow.
+  group: ats-radar-state
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+
+      - name: Poll and notify
+        run: python main.py --profile "$PROFILE"
+        env:
+          PROFILE: profiles/uxr-germany.json
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      # Silent by design: measures the wider market, sends nothing to Telegram.
+      # Allowed to fail without failing the run — the census is a nice-to-have,
+      # the digest is not.
+      - name: Market census
+        run: python market_census.py --profile "$PROFILE"
+        env:
+          PROFILE: profiles/uxr-germany.json
+        continue-on-error: true
+
+      - name: Commit updated state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # -f because state/ is gitignored in the template: a fork's dedup memory
+          # and collected history belong to that fork, not to this repository.
+          git add -f state/
+          git diff --cached --quiet || git commit -m 'Update radar state [skip ci]'
+          git push
