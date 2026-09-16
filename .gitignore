@@ -5,5 +5,10 @@ __pycache__/
 # Your target employers and your collected state are yours, not the tool's.
 sources.json
 census_sources.json
-state/
+# Note: "state/" alone cannot be re-included from, so the contents are
+# ignored instead and the shipped example is excepted below.
+state/*
 .env
+
+# The example census ships so census_chart.py runs on a fresh clone.
+!state/market_history.example.jsonl

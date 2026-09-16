@@ -41,6 +41,25 @@ Two things this method still cannot measure, and I'd rather say so: the
 German-language gate on roles that don't state it, and the research-flavoured PM
 market, which hides under titles no keyword list catches cleanly.
 
+## Seeing the census
+
+```sh
+python3 census_chart.py            # → census.svg
+```
+
+![The market census: roles matching the profile per run, with a long run of zeroes, and a breakdown of which countries they were in](census.example.svg)
+
+The census was already being written to `state/market_history.jsonl` and never looked
+at. A run of zeroes is the finding, so the chart marks each zero day rather than
+leaving blank paper, and prints the longest run — the thing that distinguishes a base
+rate from a broken feed.
+
+`state/` is gitignored, so a fresh clone draws `state/market_history.example.jsonl`
+instead and **stamps the figure `ILLUSTRATIVE DATA`**. The example is invented, shaped
+like a real run so the chart is inspectable before you have collected anything. A chart
+of made-up numbers that does not say so would be the worst thing in this repository, so
+it says so on the figure and not only here.
+
 ## Search profiles
 
 A profile is the whole search. Swap it and the same code answers a different
