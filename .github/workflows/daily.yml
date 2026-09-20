@@ -27,6 +27,12 @@ jobs:
           python-version: '3.12'
       - run: pip install requests
 
+      # sources.json is gitignored (this repo is public), so it lives in a secret.
+      - name: Write sources
+        run: printf '%s' "$SOURCES_JSON" > sources.json
+        env:
+          SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
+
       - name: Poll and notify
         run: python main.py --profile "$PROFILE"
         env:
