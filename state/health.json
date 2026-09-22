@@ -1,187 +1,187 @@
 {
   "bosch": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "camunda": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "celonis": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "commercetools": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "contentful": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "datev": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "deepl": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "deliveryhero": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "doctolib": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "gdata": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "getyourguide": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "hornetsecurity": {
-    "consecutive_failures": 1,
-    "last_checked": "2026-09-21",
-    "last_error": "returned 0 jobs",
-    "last_status": "soft failure: returned 0 jobs"
+    "consecutive_failures": 0,
+    "last_checked": "2026-09-22",
+    "last_error": null,
+    "last_status": "ok"
   },
   "idnow": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "mambu": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "n26": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "personio": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "pleo": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "sap-s4hana": {
-    "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
-    "last_error": null,
-    "last_status": "ok"
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-22",
+    "last_error": "https://jobs.sap.com/services/rss/category/?catid=888401: 404 Client Error: Not Found for url: https://jobs.sap.com/en/services/rss/category/?catid=888401",
+    "last_status": "hard fetch failure"
   },
   "sap-signavio": {
-    "consecutive_failures": 1,
-    "last_checked": "2026-09-21",
-    "last_error": "returned 0 jobs",
-    "last_status": "soft failure: returned 0 jobs"
+    "consecutive_failures": 2,
+    "last_checked": "2026-09-22",
+    "last_error": "https://jobs.sap.com/services/rss/category/?catid=888401: 404 Client Error: Not Found for url: https://jobs.sap.com/en/services/rss/category/?catid=888401",
+    "last_status": "hard fetch failure"
   },
   "scalable": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "secunet": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "siemens": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "solaris": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "spryker": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "staffbase": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "strava": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "teamviewer": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "telekom": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "traderepublic": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "vmray": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   },
   "zalando": {
     "consecutive_failures": 0,
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-22",
     "last_error": null,
     "last_status": "ok"
   }
